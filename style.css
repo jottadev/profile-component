@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', Arial;
+}
+
+body {
+    background: #0C0B0B;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-wrapper {
+    background: #0F0E0E;
+    
+    width: 55vw;
+    height: 55vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile {
+    color: #B7B7B7;
+    width: 40vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+figure img {
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+
+.profile .photo {
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.edit-profile {
+    width: 14vw;
+    height: 20vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.btn-icon {
+    background: #322f2f;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+    width: 6vw;
+    height: 5vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* about me */
+
+.about-me {
+    color: #B7B7B7;
+    width: 40vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.about-me div {
+    border-radius: 7px
+}
+
+.projects {
+    width: 12vw;
+    height: 13vh;
+    background: #046313;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 1rem;
+}
+
+.projects h5 {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.projects h2 {
+    font-size: 3rem;
+}
+
+.stars {
+    width: 12vw;
+    height: 13vh;
+    background: #044A7D;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 1rem;
+}
+
+.stars h5 {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.stars h2 {
+    font-size: 3rem;
+}
+
+.followers {
+    width: 12vw;
+    height: 13vh;
+    background: #725200;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 1rem;
+}
+
+.followers h5 {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.followers h2 {
+    font-size: 3rem;
+}
