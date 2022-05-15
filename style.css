@@ -46,7 +46,7 @@ main {
 }
 
 figure img {
-    width: 90px;
+    width: 12vw;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 1rem;
@@ -166,4 +166,97 @@ figure img {
 
 .followers h2 {
     font-size: 3rem;
+}
+
+/* mobile version */
+
+@media(max-width:380px){
+    .container-wrapper {
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .profile {
+        border: 1px solid red;
+        width: 70vw;
+        height: 25vh;
+        flex-direction: column;
+    }
+
+    figure img {
+        width: 15vw;
+    }
+
+    .profile .photo {
+        width: 70vw;
+        height: 15vh;
+        flex-direction: column;
+    }
+
+    .edit-profile {
+        width: 70vw;
+        height: 5vh;
+    
+        flex-direction: column;;
+    }
+
+    .btn-icon {
+        width: 25vw;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+
+    /* responsive about me */
+
+    .about-me {
+        border: 1px solid red;
+        width: 70vw;
+        height: 45vh;
+        flex-direction: column;
+        gap: .7rem;
+    }
+
+    .projects {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .projects h5 {
+        font-size: .8rem;
+    }
+    
+    .projects h2 {
+        font-size: 2.5rem;
+    }
+
+    .stars {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .stars h5 {
+        font-size: .8rem;
+    }
+    
+    .stars h2 {
+        font-size: 2.5rem;
+    }
+
+    .followers {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .followers h5 {
+        font-size: .8rem;
+    }
+    
+    .followers h2 {
+        font-size: 2.5rem;
+    }
+    
+    
 }
