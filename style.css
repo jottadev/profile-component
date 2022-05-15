@@ -46,7 +46,7 @@ main {
 }
 
 figure img {
-    width: 12vw;
+    width: 90px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 1rem;
@@ -98,7 +98,6 @@ figure img {
 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
@@ -170,6 +169,195 @@ figure img {
 
 /* mobile version */
 
+@media(max-width:1150px){
+    .container-wrapper {
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .profile {
+        width: 70vw;
+        height: 25vh;
+        flex-direction: row;
+    }
+
+    figure img {
+        width: 90px;
+    }
+
+    .profile .photo {
+        width: 35vw;
+        height: 15vh;
+        flex-direction: row;
+    }
+
+    .edit-profile {
+        width: 30vw;
+        height: 5vh;
+        flex-direction: column;;
+    }
+
+    .btn-icon {
+        width: 20vw;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+
+    /* responsive about me */
+
+    .about-me {
+        width: 70vw;
+        height: 45vh;
+        flex-direction: column;
+        gap: .7rem;
+    }
+
+    .projects {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .projects h5 {
+        font-size: .8rem;
+    }
+    
+    .projects h2 {
+        font-size: 2.5rem;
+    }
+
+    .stars {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .stars h5 {
+        font-size: .8rem;
+    }
+    
+    .stars h2 {
+        font-size: 2.5rem;
+    }
+
+    .followers {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .followers h5 {
+        font-size: .8rem;
+    }
+    
+    .followers h2 {
+        font-size: 2.5rem;
+    }
+    
+    
+}
+
+@media(max-width:720px){
+    .container-wrapper {
+        width: 80vw;
+        height: 80vh;
+    }
+
+    .profile {
+        width: 70vw;
+        height: 25vh;
+        flex-direction: column;
+    }
+
+    figure img {
+        width: 70px;
+    }
+
+    .profile .photo {
+        width: 35vw;
+        height: 16vh;
+        flex-direction: column;
+    }
+
+    .edit-profile {
+        width: 30vw;
+        height: 5vh;
+        flex-direction: column;
+    }
+
+    .btn-icon {
+        width: 20vw;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+
+    /* responsive about me */
+
+    .about-me {
+        width: 70vw;
+        height: 45vh;
+        flex-direction: column;
+        gap: .7rem;
+    }
+
+    .projects {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .projects h5 {
+        font-size: .8rem;
+    }
+    
+    .projects h2 {
+        font-size: 2.5rem;
+    }
+
+    .stars {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .stars h5 {
+        font-size: .8rem;
+    }
+    
+    .stars h2 {
+        font-size: 2.5rem;
+    }
+
+    .followers {
+        width: 60vw;
+        height: 12vh;
+    }
+
+    .followers h5 {
+        font-size: .8rem;
+    }
+    
+    .followers h2 {
+        font-size: 2.5rem;
+    }
+    
+    
+}
+
+@media(max-width:410px){
+
+    figure img {
+        width: 60px;
+    } 
+
+    .name {
+       font-size: .8rem;
+    }
+    
+}
+
+
 @media(max-width:380px){
     .container-wrapper {
         width: 80vw;
@@ -183,7 +371,7 @@ figure img {
     }
 
     figure img {
-        width: 15vw;
+        width: 60px;
     }
 
     .profile .photo {
